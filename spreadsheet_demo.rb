@@ -2,7 +2,7 @@ require 'googleauth'
 require "google_drive"
 
 spreadsheet_name = "demo"
-service_account_credentials = ""
+service_account_credentials = "credentials/Iowa Ruby Brigade demo-1e080adb1e34.json"
 
 ENV["GOOGLE_APPLICATION_CREDENTIALS"] = File.expand_path(service_account_credentials, File.dirname(__FILE__))
 
